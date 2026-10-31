@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MyLib") (type "KiCad") (uri "/home/lukasz/Documents/AGH/Alicja/B-Probe/MyLib.kicad_sym") (options "") (descr ""))
+	(lib (name "MyLibkicad_sym") (type "KiCad") (uri "${KIPRJMOD}/MyLibkicad_sym.kicad_sym") (options "") (descr ""))
+	(lib (name "MyLib") (type "KiCad") (uri "${KIPRJMOD}/MyLib.kicad_sym") (options "") (descr ""))
+	(lib (name "MyLIb") (type "KiCad") (uri "${KIPRJMOD}/MyLIb.kicad_sym") (options "") (descr ""))
+)
