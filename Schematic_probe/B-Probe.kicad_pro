@@ -214,7 +214,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1524
+        0.0,
+        0.1524,
+        0.3048
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -690,15 +692,15 @@
       {
         "filename": "B-Probe.kicad_sch",
         "name": "B-Probe",
-        "uuid": "01dba288-1fa7-419d-926e-626a8fb6b279"
+        "uuid": "5d45974a-288a-41b5-a205-c1c5d54b17be"
       }
     ],
-    "used_designators": "#PWR1-22,C1-4,IC1-3,J1,R1-2",
+    "used_designators": "#PWR1-26,A1,C1-6,IC1-3,J1-3,R1-4,U1-2",
     "variants": []
   },
   "sheets": [
     [
-      "01dba288-1fa7-419d-926e-626a8fb6b279",
+      "5d45974a-288a-41b5-a205-c1c5d54b17be",
       "B-Probe"
     ]
   ],
