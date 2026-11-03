@@ -1,0 +1,222 @@
+(footprint "PSON50P145X100X90-6N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "PSON50P145X100X90-6N"
+		(at -0.247 -1.848 0)
+		(layer "F.SilkS")
+		(uuid "79f7f94c-2618-49aa-85ef-77ae43572dd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.007 1.975 0)
+		(layer "F.SilkS")
+		(uuid "e3b255d7-1311-4d74-b9c5-8c59ab3ea73d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a2e9a05-1c36-4bd7-821b-9f7865b2efd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54603c4e-b3bb-4387-a3ac-9c8d480a06d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0)
+	(solder_paste_margin 0)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.052 -0.512)
+		(end -0.952 -0.512)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37e53462-e60b-4bfe-9ebd-0d72cc5d509c")
+	)
+	(fp_line
+		(start -0.755 -0.975)
+		(end -0.755 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "aa64bb65-43c1-4bc7-b1a1-c2b8115d7f22")
+	)
+	(fp_line
+		(start -0.755 0.975)
+		(end 0.755 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "84d27d29-2318-4375-ac7d-3df2b250b6ed")
+	)
+	(fp_line
+		(start 0.755 -0.975)
+		(end -0.755 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "88a3b4ec-e97b-4f26-80bc-3c931d48beee")
+	)
+	(fp_line
+		(start 0.755 0.975)
+		(end 0.755 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4cb708d8-2d8f-41b8-99f0-ec3bb56e284c")
+	)
+	(fp_line
+		(start -0.5 -0.725)
+		(end 0.5 -0.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "96db087c-280c-49e6-9d91-4e9aef426aed")
+	)
+	(fp_line
+		(start -0.5 0.725)
+		(end -0.5 -0.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e03314fc-8fcb-4f78-a93f-16f253a7ff51")
+	)
+	(fp_line
+		(start 0.5 -0.725)
+		(end 0.5 0.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e344cafa-ab2f-44c9-b4cf-9a38f6159d55")
+	)
+	(fp_line
+		(start 0.5 0.725)
+		(end -0.5 0.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "1b8412c6-091e-4941-a296-73e2709a5588")
+	)
+	(fp_circle
+		(center -1.052 -0.512)
+		(end -0.952 -0.512)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "89643f91-18bd-4561-8fd5-68f7d5012354")
+	)
+	(pad "1" smd rect
+		(at -0.29 -0.5)
+		(size 0.43 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "2457c430-238d-4807-8498-906d18aba57a")
+	)
+	(pad "2" smd rect
+		(at -0.295 0)
+		(size 0.42 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "ebe8ad62-a23f-49cb-a3f4-245fd25cd2fe")
+	)
+	(pad "3" smd rect
+		(at -0.295 0.5)
+		(size 0.42 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "f6905dbf-1a3d-442b-9600-53722b70153c")
+	)
+	(pad "4" smd rect
+		(at 0.295 0.5)
+		(size 0.42 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "2b111b56-5724-4ee1-a013-29243a6fd8de")
+	)
+	(pad "5" smd rect
+		(at 0.295 0)
+		(size 0.42 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "5776f380-bc00-4432-a2cc-726a74e29c9e")
+	)
+	(pad "6" smd rect
+		(at 0.295 -0.5)
+		(size 0.42 0.31)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "9022258e-6fe0-4671-bf38-f3f092a79d63")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/PRTR5V0U2F/PRTR5V0U2F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

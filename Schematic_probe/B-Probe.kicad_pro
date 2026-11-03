@@ -76,7 +76,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|44000000|38500000|1718a765-c543-47a0-ba9c-ea81bd9a93a7|f78e6bfd-fb8d-46d7-b654-3ecbdcf5e79d",
+          ""
+        ],
+        [
+          "clearance|44500000|38000000|1718a765-c543-47a0-ba9c-ea81bd9a93a7|1fc4ad35-a81d-445f-a195-b2194e043b9c",
+          ""
+        ],
+        [
+          "clearance|44500000|39000000|a5df7997-c63c-446c-abf2-72d4490a4305|f78e6bfd-fb8d-46d7-b654-3ecbdcf5e79d",
+          ""
+        ],
+        [
+          "clearance|45000000|38500000|1fc4ad35-a81d-445f-a195-b2194e043b9c|a5df7997-c63c-446c-abf2-72d4490a4305",
+          ""
+        ],
+        [
+          "clearance|45500000|38000000|073a1ccc-6c5d-443c-8722-b0cc345ad12d|1fc4ad35-a81d-445f-a195-b2194e043b9c",
+          ""
+        ],
+        [
+          "clearance|45500000|39000000|2e79eb61-a0f0-49d3-b042-21401f8e84c8|a5df7997-c63c-446c-abf2-72d4490a4305",
+          ""
+        ],
+        [
+          "clearance|46000000|38500000|073a1ccc-6c5d-443c-8722-b0cc345ad12d|2e79eb61-a0f0-49d3-b042-21401f8e84c8",
+          ""
+        ],
+        [
+          "clearance|46500000|39000000|2e79eb61-a0f0-49d3-b042-21401f8e84c8|a2999724-7f0a-4155-aa7c-b562e853a6ab",
+          ""
+        ],
+        [
+          "clearance|46575000|38000000|073a1ccc-6c5d-443c-8722-b0cc345ad12d|48a759bc-9996-4335-99a1-e5efab1553a7",
+          ""
+        ],
+        [
+          "clearance|47000000|38425000|48a759bc-9996-4335-99a1-e5efab1553a7|a2999724-7f0a-4155-aa7c-b562e853a6ab",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -250,16 +291,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.25,
-          "drill": 0.15
-        },
-        {
-          "diameter": 0.3,
-          "drill": 0.15
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -695,7 +728,7 @@
         "uuid": "5d45974a-288a-41b5-a205-c1c5d54b17be"
       }
     ],
-    "used_designators": "#PWR1-26,A1,C1-6,IC1-3,J1-3,R1-4,U1-2",
+    "used_designators": "#PWR1-28,A1,C1-6,IC1-3,J1-3,R1-4,U1-2",
     "variants": []
   },
   "sheets": [
