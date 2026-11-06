@@ -550,7 +550,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "B_probe-readoutboard",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -637,14 +637,32 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -687,7 +705,7 @@
         "uuid": "6a623807-1f0e-4b91-8733-f3f384622e57"
       }
     ],
-    "used_designators": "#PWR1-123,A1,C1-25,D1-25,H1-4,J1-13,R1-60,S1,SW1-2,U1-13",
+    "used_designators": "#PWR1-123,A1,C1-25,D1-25,H1-4,J1-25,R1-60,S1,SW1-2,U1-13",
     "variants": []
   },
   "sheets": [
