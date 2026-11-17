@@ -924,33 +924,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyLib:AP22653QW6"
-			(exclude_from_sim yes)
+		(symbol "MyLib:AP22653AFDZ-7"
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 9.398 0)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "AP22653QW6"
-				(at 0 7.366 0)
+			(property "Value" "AP22653AFDZ-7"
+				(at 26.67 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "MyLib:SON65P200X200X80-7N"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP22652_53_52A_53A.pdf"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Power Switch ICs - Power Distribution Load Switch W-DFN2020-6 T&R 3K"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -961,8 +987,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/datasheet/download/AP22652_AP22653_AP22652A_AP22653A.pdf"
-				(at 0 0 0)
+			(property "Height" "0.8"
+				(at 26.67 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -970,10 +996,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "PRECISION ADJUSTABLE CURRENT-LIMITED POWER SWITCHES"
-				(at 0 0 0)
+			(property "Mouser Part Number" "621-AP22653AFDZ-7"
+				(at 26.67 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -981,10 +1008,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "Switch"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22653AFDZ-7?qs=W%2FMpXkg%252BdQ5j0cis9bApsQ%3D%3D"
+				(at 26.67 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -992,25 +1020,49 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "AP22653QW6_1_1"
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AP22653AFDZ-7"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "AP22653AFDZ-7_1_1"
 				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "IN"
+					(at 25.4 1.27 180)
+					(length 5.08)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,9 +1078,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND"
+					(at 25.4 -6.35 180)
+					(length 5.08)
+					(name "ILIM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1044,9 +1096,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "EN/~{EN}"
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "~{FAULT}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,9 +1114,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{FAULT}"
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1080,9 +1132,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "I_{LIM}"
+					(at 0 -8.89 0)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,9 +1150,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "OUT"
+					(at 0 1.27 0)
+					(length 5.08)
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1108,6 +1160,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -8.89 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1414,7 +1484,7 @@
 		(uuid "935695aa-b1f2-411d-9190-130712747d5c")
 	)
 	(junction
-		(at 199.39 58.42)
+		(at 207.01 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95796fbf-70b7-4072-bc79-3a4ab5ef4b4a")
@@ -1443,6 +1513,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 66.04) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c012522-b013-4f43-80b1-2aabf7d656ef")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5ee801-50f0-44a0-a471-9b2c658eebd3")
+	)
+	(wire
+		(pts
 			(xy 213.36 54.61) (xy 213.36 63.5)
 		)
 		(stroke
@@ -1453,7 +1543,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 219.71 73.66)
+			(xy 166.37 60.96) (xy 171.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356358ec-d9f8-4164-a24a-74ec433baa41")
+	)
+	(wire
+		(pts
+			(xy 207.01 73.66) (xy 219.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1483,13 +1583,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 60.96) (xy 170.18 60.96)
+			(xy 196.85 58.42) (xy 228.6 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6006c285-9bd8-4f76-96ef-1e41862015c2")
+		(uuid "552e875f-6d96-49db-8658-3fee93612795")
 	)
 	(wire
 		(pts
@@ -1503,16 +1603,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 58.42) (xy 170.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70d2124d-8a22-4410-9f29-188084677b8b")
-	)
-	(wire
-		(pts
 			(xy 232.41 53.34) (xy 228.6 53.34)
 		)
 		(stroke
@@ -1520,16 +1610,6 @@
 			(type default)
 		)
 		(uuid "81422793-6c0f-469d-b8f8-a747f67721ae")
-	)
-	(wire
-		(pts
-			(xy 165.1 66.04) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8193b74c-82d3-492d-a4f6-5d1324ec69d5")
 	)
 	(wire
 		(pts
@@ -1543,16 +1623,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 228.6 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5112b25-e207-4364-ad53-1df8f5d463d2")
-	)
-	(wire
-		(pts
 			(xy 236.22 73.66) (xy 237.49 73.66)
 		)
 		(stroke
@@ -1563,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 199.39 58.42)
+			(xy 207.01 73.66) (xy 207.01 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1593,23 +1663,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 66.04) (xy 191.77 67.31)
+			(xy 201.93 66.04) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b534bc70-ca46-4c43-a942-96477a13207e")
-	)
-	(wire
-		(pts
-			(xy 190.5 66.04) (xy 191.77 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd3058ec-f4b7-4302-bef1-3b589efaf6e0")
 	)
 	(wire
 		(pts
@@ -1623,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 74.93) (xy 191.77 76.2)
+			(xy 201.93 74.93) (xy 201.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 170.18 68.58)
+			(xy 166.37 68.58) (xy 171.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1650,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "eba45332-0743-4910-84eb-da512782ad1f")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd441224-54a3-4b8c-9b9d-4807769f4d13")
 	)
 	(wire
 		(pts
@@ -1672,7 +1742,7 @@
 		(uuid "0600f918-dad8-40b9-a5ff-9edb0d67c83b")
 	)
 	(label "Inner 5V"
-		(at 199.39 58.42 0)
+		(at 207.01 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 68.58 0)
+		(at 166.37 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1748,7 +1818,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ad108b4-09f0-4085-8b70-c98fcb02a4bc")
 		(property "Reference" "#PWR05"
-			(at 168.91 74.93 0)
+			(at 166.37 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1759,7 +1829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 73.66 0)
+			(at 166.37 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1769,7 +1839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 68.58 0)
+			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,7 +1850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 68.58 0)
+			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 68.58 0)
+			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,6 +1922,128 @@
 				)
 				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/f6615704-f8e0-42c1-b28b-bfd3e564bee9"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1233e1a5-eb58-4cc4-a49a-df8e17774707")
+		(property "Reference" "#PWR0125"
+			(at 196.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25d3d9be-6285-4242-8d9d-a136153bfc0a")
+		)
+		(instances
+			(project "readout"
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1879c90b-4bf2-4bd5-b32f-9e0df6199152"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1d309da7-6f33-49eb-a0dd-d748c94c4403"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36203853-5cc4-4d5c-83f4-7a9f27be033f"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36c36f73-8e73-4605-bc59-5bfd71711d10"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/6f3cbe84-a4ae-4d08-9051-be551781ad8f"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/7d0c7611-def3-4553-b7e0-635fb3ce0b52"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/81008c61-d8a5-4f04-938e-81a9abb53e06"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/835a6706-99e8-42c9-a21d-f4c97bdff617"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/af2b149b-43b5-4a67-b569-e0bdd279576f"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/d86fd76c-8d5b-4de9-bcba-cc23ef4b73f3"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/dde95ba3-7556-4776-86fb-9bde12667aff"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/f6615704-f8e0-42c1-b28b-bfd3e564bee9"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 76.2 0)
+		(at 201.93 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2241,7 +2433,7 @@
 		(fields_autoplaced yes)
 		(uuid "67b982d1-d0db-4359-bb9b-76e47d1aa361")
 		(property "Reference" "#PWR07"
-			(at 191.77 82.55 0)
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 81.28 0)
+			(at 201.93 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2262,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 76.2 0)
+			(at 201.93 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 76.2 0)
+			(at 201.93 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,7 +2476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 76.2 0)
+			(at 201.93 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2351,8 +2543,209 @@
 		)
 	)
 	(symbol
+		(lib_id "MyLib:AP22653AFDZ-7")
+		(at 171.45 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a56e193-d150-4f52-9d35-b47143d756c0")
+		(property "Reference" "IC1"
+			(at 186.69 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP22653AFDZ-7"
+			(at 186.69 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLib:SON65P200X200X80-7N"
+			(at 198.12 154.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP22652_53_52A_53A.pdf"
+			(at 198.12 254.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Power Switch ICs - Power Distribution Load Switch W-DFN2020-6 T&R 3K"
+			(at 171.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 198.12 454.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-AP22653AFDZ-7"
+			(at 198.12 554.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22653AFDZ-7?qs=W%2FMpXkg%252BdQ5j0cis9bApsQ%3D%3D"
+			(at 198.12 654.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 198.12 754.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP22653AFDZ-7"
+			(at 198.12 854.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "09b8de04-d398-4c62-a834-e9bbbb6e7088")
+		)
+		(pin "4"
+			(uuid "483592d5-38e2-47b1-bb38-d40963291ff9")
+		)
+		(pin "7"
+			(uuid "b2708843-45b4-464e-99bb-b5edb8dfb21a")
+		)
+		(pin "6"
+			(uuid "1307375e-da4b-4a9d-947a-76f58e654f3d")
+		)
+		(pin "5"
+			(uuid "f471eaec-2189-458e-a42e-4de01045c400")
+		)
+		(pin "1"
+			(uuid "5f95aa8a-677b-49ab-91be-6c6928ea8230")
+		)
+		(pin "3"
+			(uuid "e7a32f5b-885f-48da-9b4a-40358c8843eb")
+		)
+		(instances
+			(project "readout"
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1879c90b-4bf2-4bd5-b32f-9e0df6199152"
+					(reference "IC6")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1d309da7-6f33-49eb-a0dd-d748c94c4403"
+					(reference "IC9")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36203853-5cc4-4d5c-83f4-7a9f27be033f"
+					(reference "IC3")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36c36f73-8e73-4605-bc59-5bfd71711d10"
+					(reference "IC1")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/6f3cbe84-a4ae-4d08-9051-be551781ad8f"
+					(reference "IC10")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/7d0c7611-def3-4553-b7e0-635fb3ce0b52"
+					(reference "IC7")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/81008c61-d8a5-4f04-938e-81a9abb53e06"
+					(reference "IC2")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/835a6706-99e8-42c9-a21d-f4c97bdff617"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/af2b149b-43b5-4a67-b569-e0bdd279576f"
+					(reference "IC12")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/d86fd76c-8d5b-4de9-bcba-cc23ef4b73f3"
+					(reference "IC11")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/dde95ba3-7556-4776-86fb-9bde12667aff"
+					(reference "IC4")
+					(unit 1)
+				)
+				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/f6615704-f8e0-42c1-b28b-bfd3e564bee9"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 191.77 71.12 0)
+		(at 201.93 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2363,7 +2756,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a8b307b-1723-4340-b6a2-2c8f11cc60bd")
 		(property "Reference" "R4"
-			(at 194.31 69.8499 0)
+			(at 204.47 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2374,7 +2767,7 @@
 			)
 		)
 		(property "Value" "82k"
-			(at 194.31 72.3899 0)
+			(at 204.47 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2385,7 +2778,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.992 71.12 90)
+			(at 200.152 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 71.12 0)
+			(at 201.93 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,7 +2800,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 71.12 0)
+			(at 201.93 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,142 +4009,6 @@
 				)
 				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/f6615704-f8e0-42c1-b28b-bfd3e564bee9"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyLib:AP22653QW6")
-		(at 180.34 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e914ba00-0edd-4154-b443-1c620734f42c")
-		(property "Reference" "U1"
-			(at 180.34 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP22653QW6"
-			(at 180.34 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP22652_AP22653_AP22652A_AP22653A.pdf"
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PRECISION ADJUSTABLE CURRENT-LIMITED POWER SWITCHES"
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "41747feb-0edf-49e6-b4b9-7b985f033596")
-		)
-		(pin "4"
-			(uuid "0b371e8d-76fb-4baf-83a7-fd97ad42c9be")
-		)
-		(pin "6"
-			(uuid "5597a59c-4cff-4901-873f-d4c9dd0ed3cd")
-		)
-		(pin "1"
-			(uuid "0503cd31-20f4-4cc8-b3dc-140e368b5fc9")
-		)
-		(pin "3"
-			(uuid "7e34bbac-e22b-4179-a8a4-a4dce5de045e")
-		)
-		(pin "5"
-			(uuid "3efc1047-54ec-415e-93ff-8683e64b1817")
-		)
-		(instances
-			(project "readout"
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1879c90b-4bf2-4bd5-b32f-9e0df6199152"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/1d309da7-6f33-49eb-a0dd-d748c94c4403"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36203853-5cc4-4d5c-83f4-7a9f27be033f"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/36c36f73-8e73-4605-bc59-5bfd71711d10"
-					(reference "U1")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/6f3cbe84-a4ae-4d08-9051-be551781ad8f"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/7d0c7611-def3-4553-b7e0-635fb3ce0b52"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/81008c61-d8a5-4f04-938e-81a9abb53e06"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/835a6706-99e8-42c9-a21d-f4c97bdff617"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/af2b149b-43b5-4a67-b569-e0bdd279576f"
-					(reference "U13")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/d86fd76c-8d5b-4de9-bcba-cc23ef4b73f3"
-					(reference "U12")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/dde95ba3-7556-4776-86fb-9bde12667aff"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/6a623807-1f0e-4b91-8733-f3f384622e57/f6615704-f8e0-42c1-b28b-bfd3e564bee9"
-					(reference "U6")
 					(unit 1)
 				)
 			)
